@@ -1,0 +1,8 @@
+.cart{
+    position: sticky;
+    top: 0;
+    padding: 20px 20px;
+}
+.cart h2{
+    padding-left: 15px;
+}
