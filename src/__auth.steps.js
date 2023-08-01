@@ -12,4 +12,8 @@ Auth Setup
 
 /* 
 1. Create UserContext (Auth Context): User Context --> component name userContext provides authContext
+2. create AuthContext
+3. setAuthContext.provider
+4. Make sure you set the children
+5. export auth context
 */
