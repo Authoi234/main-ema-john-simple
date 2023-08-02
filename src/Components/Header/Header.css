@@ -20,3 +20,16 @@
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
 }
+
+@media only screen and (min-width:400px) and (max-width:760px) {
+    .header a{
+        font-size: 13px;
+        margin-left: 20px;
+    }
+    .header{
+        display: flex;
+        justify-content: start;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}   

@@ -2,7 +2,9 @@
     position: sticky;
     top: 0;
     padding: 20px 20px;
+    width: auto;
+    word-wrap: break-word;
 }
 .cart h2{
-    padding-left: 15px;
+    text-align: center;
 }

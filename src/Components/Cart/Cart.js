@@ -21,7 +21,7 @@ const Cart = ({cart, clearCart, children}) => {
             <p>Total Shipping: ${shipping}</p>
             <p>Tax: ${tax}</p>
             <h4>Grand Total: ${grandTotal.toFixed(2)}</h4>    
-            <button style={{backgroundColor: '#FF3030', borderRadius:'4px', padding: '15px 67px', border: '0', fontSize: '18px', color: 'white', cursor: 'pointer'}} onClick={clearCart}>Clear Cart</button>        
+            <button style={{backgroundColor: '#FF3030', borderRadius:'4px', padding: '0.9rem 3.77rem',wordBreak: 'break-all', border: '0', fontSize: '1rem', color: 'white', cursor: 'pointer'}} onClick={clearCart}>Clear Cart</button>        
             {children}
         </div>
     );

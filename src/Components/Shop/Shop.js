@@ -54,7 +54,7 @@ const Shop = () => {
             <div className="cart-container">
                 <Cart clearCart={clearCart} cart={cart}>
                     <Link to='/orders'>
-                        <button style={{ backgroundColor: 'orange', borderRadius: '4px', padding: '15px 53px', border: '0', fontSize: '17px', color: 'white', cursor: 'pointer', marginTop: '10px' }}>Review Orders</button>
+                        <button style={{ backgroundColor: 'orange', borderRadius: '4px', padding: '1rem 3.7rem', border: '0', fontSize: '1rem', color: 'white', cursor: 'pointer', marginTop: '10px' }}>Review Orders</button>
                     </Link>
                 </Cart>
             </div>
