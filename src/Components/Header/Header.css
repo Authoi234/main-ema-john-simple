@@ -21,6 +21,13 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+.btn-logout{
+    margin: 0 20px;
+    color: black;
+    background: white;
+    font-size: 15px;
+}
+
 @media only screen and (min-width:400px) and (max-width:760px) {
     .header a{
         font-size: 13px;

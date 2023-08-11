@@ -5,9 +5,9 @@ import About from './Components/About/About';
 import Shop from './Components/Shop/Shop'
 import Orders from './Components/Orders/Orders';
 import Inventory from './Components/Inventory/Inventory';
-import { productsAndCartLoader } from './loaders/ProductsAndCartLoader';
 import SignUp from './Components/SignUp/SignUp';
 import Login from './Components/Login/Login';
+import { productsAndCartLoader } from './loaders/ProductsAndCartLoader';
 
 function App() {
   const router = createBrowserRouter([
