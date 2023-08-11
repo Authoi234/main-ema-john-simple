@@ -35,6 +35,7 @@ const Orders = () => {
             </div>
             <div className='cart-container'>
                 <Cart clearCart={clearCart} cart={cart}>
+                     <Link to="/shipping" style={{ backgroundColor: 'green',textDecoration: 'none', borderRadius: '4px', padding: " 0.4rem 2.33rem", fontSize: '15px', color: 'white', cursor: 'pointer'}}>Proceed Shipping</Link>
                 </Cart>
             </div>
         </div>
