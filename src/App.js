@@ -50,7 +50,7 @@ function App() {
 
         {
           path: '*',
-          element: <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}><h1 style={{color: 'gray'}}>404 | Nothing Hare To See</h1></div>
+          element: <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}><h1 style={{ color: 'gray' }}>404 | Nothing Hare To See</h1></div>
         }
       ]
     },
