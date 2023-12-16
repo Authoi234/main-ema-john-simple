@@ -23,10 +23,21 @@
 
 .btn-logout{
     margin: 0 20px;
-    color: black;
+    color: white;
     font-weight: bold;
-    background: rgba(255, 255, 255, 0.968);
+    background: rgba(255, 0, 0, 0.968);
     font-size: 15px;
+    padding: 15px 20px;
+    border-radius: 20px;
+    border: none;
+    transition: 0.5s;
+}
+.btn-logout:hover{
+    transform: scale(1.1);
+    background-color: rgba(227, 0, 0, 0.96);
+}
+.btn-logout:active{
+    transform: scale(0.9);
 }
 
 @media only screen and (min-width:400px) and (max-width:760px) {

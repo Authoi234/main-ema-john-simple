@@ -15,6 +15,33 @@
     background-color: rgba(255, 153, 0, 0.3);
 }
 
+.pagination{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagination button{
+    margin-right: 10px;
+    padding: 10px;
+    font-size: larger;
+    width: 6%;
+    color: white;
+    background-color: rgb(0, 255, 255);
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.pagination button:hover{
+    transform: scale(1.2);
+    background-color:  rgb(0, 126, 210);
+}
+.pagination button:active{
+    transform: scale(0.7);
+}
+
 @media screen and (min-width: 1900px) {
     .products-container {
         display: flex;
