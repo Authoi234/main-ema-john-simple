@@ -24,7 +24,8 @@
     align-items: center;
 }
 .pagination button{
-    margin-right: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
     padding: 10px;
     font-size: larger;
     width: 6%;
@@ -40,6 +41,19 @@
 }
 .pagination button:active{
     transform: scale(0.7);
+}
+
+.pagination .selected{
+    background-color: goldenrod;
+    border: gold;
+    font-weight: bold;
+    transform: scale(1.2);
+}
+
+.selectPageNum{
+    padding: 5px 5px;
+    font-size: large;
+    margin-left: 10%;
 }
 
 @media screen and (min-width: 1900px) {
@@ -64,5 +78,13 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 45px;
+    }
+    .pagination{
+        display: block;
+    }
+    .pagination button{
+        display: block;
+        margin: 10px 0;
+        padding: 5px 20px;
     }
 }
